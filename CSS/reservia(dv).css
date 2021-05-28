@@ -1,0 +1,944 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+
+
+
+* 
+{ 
+	font-family:'Raleway';
+}
+
+
+
+a 
+{
+	color :blue;
+}
+
+#page
+{
+	width: 105rem;
+	margin:0 auto;
+}
+ 
+
+.placementDesLiens
+{
+	display: flex;
+	justify-content:flex-end;
+	align-items: center;
+	margin-top: -3%;
+
+}
+.placementTitre
+{
+	margin-top:50px; 
+}
+
+.placementDesLiens a 
+{
+	margin-right:5%;
+	padding-top: 50px;
+    border-top: 2px solid #fff;
+}
+
+
+.placementDesFiltres
+{
+	display: flex;
+	align-items: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.bordureFiltres1
+{
+	border: 2px solid rgb(236, 236, 236);/*couleur white smoke*/
+	border-radius: 30px;
+	margin-left: 30px;
+	
+	display:flex;
+	align-items: center;
+	transition: 1s;
+}
+.bordureFiltres2
+{
+		border: 2px solid rgb(236, 236, 236);/*couleur white smoke*/
+	border-radius: 30px;
+	margin-left: 30px;
+	width: 130px;
+	display:flex;
+	align-items: center;
+	transition: 1s;
+}
+.bordureFiltres3
+{
+	border: 2px solid rgb(236, 236, 236);/*couleur white smoke*/
+	border-radius: 30px;
+	margin-left: 30px;
+	width: 160px;
+	display:flex;
+	align-items: center;
+	transition: 1s;
+}
+.bordureFiltres4
+{
+		border: 2px solid rgb(236, 236, 236);/*couleur white smoke*/
+	border-radius: 30px;
+	margin-left: 30px;
+	width: 210px;
+	display:flex;
+	align-items: center;
+	transition: 1s;
+}
+
+.bordureFiltres1:hover,
+.bordureFiltres2:hover,
+.bordureFiltres3:hover,
+.bordureFiltres4:hover 
+{
+color :red;
+transition :1s;
+background: #deebff;
+cursor: pointer;
+}
+
+.bordureFiltres1:hover i,
+.bordureFiltres2:hover i,
+.bordureFiltres3:hover i,
+.bordureFiltres4:hover i {
+font-size: 1.25rem;
+transition: 1s;
+} 
+.sousTitre
+{
+	font-weight: lighter;
+
+}
+
+
+.formRecherche {
+display: flex;
+margin: 25px 0;
+}
+
+.formRecherche input[type=text],
+.formRecherche input[type=search] {
+border: 1px solid rgba(236,236,236);
+}
+
+.map
+{
+   padding: 16px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+     color: black;
+    background-color: rgba(236,236,236);
+    border: 1px solid #deebff;
+    width: 15px;
+    cursor: pointer;
+    margin: 0;
+}
+
+
+.money
+{
+	color:#0065FC;
+	border-radius: 100px;
+	
+	color: #0065FC;
+	background-color: #DEEBFF;
+
+	
+	width: 40px;
+	height:40px;
+	cursor: pointer;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.child
+{
+	color:#0065FC;
+	
+	border-radius: 100px;
+	
+	color: #0065FC;
+	background-color: #deebff;
+	
+	
+	width: 40px;
+	height:40px;
+	cursor: pointer;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+.heart
+{
+	color:#0065FC;
+	
+	border-radius: 100px;
+	
+	color: #0065FC;
+	background-color: #deebff;
+	
+	
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+.dog 
+{
+	color:#0065FC;
+	
+	border-radius: 100px;
+	
+	color: #0065FC;
+	background-color: #deebff;
+	
+
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+.info
+{
+	display: flex;
+	justify-content :center;
+	align-items: center;
+	margin-right: 5px;
+	color:#0065FC;
+	height: 30px; 
+	width: 30px; 
+	border: 1px solid rgba(1,1, 1, 1);
+	border-radius: 100%;
+}
+
+.couleurFamilial
+{
+	color:black; 
+	margin: 0 10px;
+}
+
+.couleurEconomique
+{
+	color:black;
+	margin: 0 10px;
+}
+
+.couleurRomantique
+{
+	color:black;
+	margin: 0 10px;
+}
+.couleurAnimaux
+{
+	color:black;
+	margin:0 10px;
+}
+.placementSousTitreInfo
+{
+	display: flex;
+	align-items: center;
+}
+.conteneurHebergementPopulaire
+{
+	
+	
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+	border-bottom-left-radius:25px;
+	border-bottom-right-radius:25px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+	
+	
+}
+
+.conteneurHebergement
+{
+	background-color:rgba(236,236,236);
+	border-radius: 25px;
+	width: 65%;
+	height:935px;
+}
+
+.conteneurPopulaire
+{
+	
+	background-color:rgba(236,236,236);
+	border-top-left-radius:25px;
+	border-top-right-radius: 25px;
+	border-bottom-left-radius:25px;
+	border-bottom-right-radius:25px;
+	height: 935px;
+	width:30%;
+	
+
+
+	
+}
+
+.conteneurTitrePopulaire
+{
+	display:flex;
+	align-items:center;
+	justify-content: space-between;
+	margin:0 20px;
+}
+
+.cartePopulaire
+{
+	display:flex;
+	background-color: white;
+	border-radius: 25px;
+	height:250px;
+	width: auto;
+}
+.placementDesPhotos
+{
+	
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	background-color:rgba(236,236,236);
+	
+	height: 80%;
+	
+	
+
+
+
+
+	
+}
+
+.boutonDeRecherche
+{
+	background-color: #0065FC;
+	color:white;
+	border-bottom-right-radius: 15px;
+	border-top-right-radius :15px;
+	padding: 14px;
+	font-size: 19px;
+	text-align: center;
+	height: 53.15px;
+	margin-left: -4.68px;
+	border:0;
+
+
+}
+
+.boutonMarseille
+{
+	padding: 16px;
+	font-weight:bolder;
+	margin-left: -10px;
+	height: 54px;
+
+}
+
+
+
+
+.emplacementLesPlusPopulaires 
+{
+	display:flex;
+	flex-direction:column;
+	align-content:space-between;
+	height:100%;
+	
+	
+
+	
+
+}
+
+
+.cartePopulaire img
+{
+	
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+	display: flex;
+	justify-content:flex-start;
+	width:200px;
+	
+	object-fit:cover;
+	background-color: white;
+	padding: 10px;
+
+}
+
+.correctionBug
+{
+	width: 165px;
+}
+
+
+.emplacementDroit
+{
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	justify-content: space-between;
+	border-bottom-right-radius: 25px;
+	border-top-right-radius: 25px;
+	
+	width:auto;
+	margin-left: 20px;
+}
+
+.carteHebergement
+{
+	width:24%;
+	background-color: white;
+	border-radius:14px;
+	border:solid 1px rgba(236,236,236);
+    padding: 0.5%;
+    padding-bottom:8%;
+
+    height: 25%;
+
+
+
+
+}
+
+.carteHebergement img
+{
+	width:100%;
+	object-fit: cover;
+	height:100%;
+	border-top-right-radius:14px;
+	border-top-left-radius: 14px;
+}
+
+.carteActivite img
+{
+	width:100%;
+	object-fit: cover;
+	height: 100%;
+	border-top-right-radius:14px;
+	border-top-left-radius: 14px;
+}
+
+
+
+.emplacementDroit figcaption
+{
+	
+	display: flex;
+	flex-direction: column;
+	
+	justify-content: space-between;
+	height: 100%;
+	
+}
+.textePopulaire
+{
+	padding-top: 10px;
+}
+.etoile
+{
+	display:flex;
+	color:#0065FC;
+	padding-bottom: 5px;
+	margin-bottom: -225px;
+}
+.etoile2
+{
+	color:#0065FC;
+}
+
+
+.titrePopulaire
+{
+	display: flex;
+	justify-content: flex-start;
+}
+
+.emplacementActivite
+{
+	display:flex;
+	justify-content: flex-start;
+	justify-content: space-between;
+
+}
+.placementDesLiens a:hover 
+{
+	border-top: 2px solid blue;
+
+}
+
+.emplacementTitre
+{
+	margin-left:20px;
+	display:flex;
+	flex-direction:column;
+
+}
+
+
+
+.hauteurVieuxPort img
+{
+	height:425px;
+	width:400px;
+
+}
+.hauteurParc img
+{
+	height:425px;
+	width:400px;
+}
+.superposition img
+{
+	display: flex;
+	flex-direction: column;
+	width:375px;
+height:187.5px;
+	object-fit: cover;
+
+
+	}
+.hauteurVieuxPort
+{
+	margin-left: -40px;
+
+}
+
+.superposition
+{
+	margin-left:-100px;
+}
+.hauteurParc
+{
+	margin-left: -100px;
+}
+.colonnes
+{
+	display: flex;
+	justify-content: flex-start;
+
+
+	background-color:rgba(236,236,236);
+	
+	
+	
+}
+ul {
+	list-style: none;
+}
+.colonne1
+{
+	margin-right:200px;
+}
+.colonne2
+{
+	margin-left:125px;
+}
+.colonne3
+{
+	margin-left: 385px;
+}
+.titreColonne
+{
+	margin-left: 40px;
+}
+
+
+
+.fleche
+{
+	display:flex;
+	justify-content:flex-end;
+}
+.affichage
+{	
+	display:flex;
+	align-items:center;
+	margin-top: 5%;
+
+}
+figure {
+    box-shadow: 4px 4px 13px 1px rgb(0 0 0 / 50%);
+    border-radius: 20px 20px 20px 20px;
+    background: #fff;
+}
+
+figcaption {
+    padding: 10px 20px;
+}
+
+@media (max-width: 1350px)
+{
+
+
+	.conteneurHebergement
+	{
+		height: 100%;
+	}
+	.conteneurHebergementPopulaire
+	{
+		flex-direction: column-reverse;
+
+	}
+	.conteneurPopulaire
+	{
+		width:65%;
+	}
+
+	.cartePopulaire img
+	{
+		width: 50%;
+
+	}
+	.carteHebergement img
+	{
+		height:100%;
+	}
+	.carteHebergement
+	{
+		height:100%;
+		
+	}
+	.emplacementDroit
+	{
+		width: 50%;
+	}
+
+}
+
+
+@media (max-width: 769px)
+{
+
+	.conteneurHebergement
+
+{
+	height:100%;
+	width: 100%;
+	
+
+}
+	.carteHebergement
+	{
+		
+		width: 400px;
+		height:50%;
+		padding-bottom:25px;
+		margin-left: -200px;
+	
+
+	}
+	.carteHebergement img
+	{
+		height: 300px;
+		width: 400px;
+	}
+	.conteneurPopulaire
+	{width:800px;
+		margin-left: -850px;
+	}	
+	
+	.cartePopulaire 
+
+	{
+		width: 700px;
+	}
+	.cartePopulaire img
+	{
+		width: 350px;
+	}
+	.emplacementDroit
+	{
+		width: 250px;
+	}
+    .emplacementTitreHebergement
+    {
+    	margin-left: 30px;
+    }
+    .affichage
+    {
+    	margin-left: 30px;
+    }
+    .emplacementTitreActivite
+    {
+    	margin-left: 30px;
+    }
+	.placementDesPhotos
+	{	
+		flex-direction:column;
+		margin-left: 25%;
+
+
+	}
+
+	.emplacementActivite
+	{
+		flex-direction: column;
+	}
+
+	.carteActivite
+	{
+		width: 400px;
+		margin-left: 300px;
+	}
+
+	.carteActivite img
+{
+	width: 400px;
+	height: 300px;
+	
+}
+.hauteurVieuxPort
+{
+	margin-left: -100px;
+}
+.placementDesLiens
+{
+	width: 850px;
+}
+
+
+	.colonnes
+	{
+		flex-direction: column;
+		margin-left: -300px;
+
+	}
+	.colonne1
+	{
+		margin-left: 30%;
+	}
+
+	.colonne2
+	{
+		margin-left: 30%;
+	}
+	.colonne3
+	{
+		margin-left: 30%;
+	}
+}
+@media (max-width: 415px)
+{
+
+	.carteHebergement
+	{
+		margin-top: 20%;
+		padding-bottom: 130px;
+	}
+	.placementDesPhotos
+	{
+		margin-left: 20%;
+
+	}
+	.carteActivite
+	{
+		margin-left: 30px;
+		width: 300px;
+	}
+	.carteActivite img
+	{width: 300px;
+	}
+
+	.colonnes
+	{
+		margin-left:-30px;
+	}
+}
+
+@media (max-width: 376px)
+{
+
+
+
+.placementSousTitreInfo
+{
+width:400px; 
+}
+
+.placementDesFiltres
+{
+	width: 400px;
+}
+.placementTitre
+{
+	width: 370px;
+}
+.placementDesLiens
+{
+	width: 350px;
+}
+
+.hauteurVieuxPort 
+{
+	margin-left: 25px;
+	
+}
+.hauteurVieuxPort img
+{
+	height:200px;
+}
+.hauteurParc
+{
+	margin-left: 25px;
+}
+.hauteurParc img
+{
+	height: 200px;
+}
+.superposition
+{
+	margin-left: 25px;
+}
+
+	.conteneurHebergement
+
+{	flex-direction: column;
+	width: 100%;
+
+
+}
+
+.conteneurPopulaire
+{
+
+	margin-left: -1325px;
+
+}
+.emplacementDroit
+{
+	width: 170px;
+	margin-left: -22px;
+}
+.emplacementLesPlusPopulaires
+{
+	width: 370px;
+
+}
+.cartePopulaire 
+{
+	width: 340px;
+	margin-left: 18px;
+}
+.cartePopulaire img
+{
+	width: 150px;
+}
+
+	.carteHebergement img
+	{
+		
+		width:100%;
+		height: 200px;
+		
+	}
+	.carteHebergement
+	{
+
+		padding:5px;
+		width:300px;
+		padding-bottom:20px;
+		margin-left: -60px;
+		margin-bottom: -260px;
+
+	}
+	.emplacementTitreHebergement
+	{
+		margin-bottom:-270px;
+	}
+	.affichage
+	{
+		margin-top: 300px;
+	}
+	.conteneurPopulaire
+	{
+		width: auto;
+	}
+	
+
+
+	.placementDesPhotos
+	{	display: flex;
+		
+		flex-direction:column;
+		margin-left: 5%;
+		
+
+
+	}
+
+	.emplacementActivite
+	{
+		flex-direction: column;
+		width: 380px;
+
+	}
+.emplacementActivite img
+{
+	width: 300px;
+
+	}
+
+	.carteActivite
+	{
+		margin-left: 5px;
+		width: 300px;
+
+	}
+	.colonnes
+	{
+		flex-direction: column;
+		margin-left: -250px;
+		
+
+	}
+	ul {
+		list-style: none;
+	}
+	.colonne1
+	{
+		margin-left: 250px;
+
+	}
+
+	.colonne2
+	{
+		margin-left: 250px;
+	}
+	.colonne3
+	{
+		margin-left: 250px;
+	}
+
+	.emplacementLesPlusPopulaires
+	{
+		margin-left: -10px;
+	}
+	.etoile
+	{width: 100%;
+
+	}
+
+
+	
+}
+
+
+
+
+
